@@ -1,0 +1,13 @@
+This is the full source code for the Calculator App. 
+
+This code is mean't to be an example to others trying to learn Objective-C. 
+
+To make this work, you need to create the interface with Interface Builder. Create 4 labels, respectively named Operand 1, Operand 2, Operator and Answer. Create a text Field for each label except for Operator, in which case you will need to create a Pop Up Button. In the pop-up-button, the menu items should be as follows: Add, Subtract, Multiply, Divide ('Add' being the topmost, 'Subtract' being 2nd from the top etc..). Also Create a Push Button. Link these to the calculatorController object. The Operand 1 textfield should have an Outlet called operandOne, the Operand 2 text field should have an Outlet called operandTwo, the Operator Pop-Up-Button should have an Outlet called operator. The Answer text field should have an Outlet called answer. The Push Button should link to an Action called calculate:.
+
+A fully compiled example version will be available for download soon.
+
+Licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported  License. AKA, do whatever you want with code, *but*, you can't commercially use it and you have to give me credit when you do use it. By giving me credit I mean just write my name in a comment beside the code snippet.
+
+If you need any help, please contact me at james[at]jameseggers[.com].
+
+Created with XCode Version 3.2.2.
